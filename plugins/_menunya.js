@@ -40,7 +40,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-_SaifulBotz Multi Device | Official Bot Account_
+_HanzBotz Multi Device | Official Bot Account_
 
 ❏ Username : *%name*
 ❏ Limit : *%limit* Limit
@@ -67,10 +67,10 @@ Hello *%name* , Here my command list.
   after: `
 ──···────────────────···──
 
-Base Script : *R-Saiful-MD*
+Base Script : *R-TXZY-MD*
 Recode Script : *Private*
 
- © SAIFULZY-MD 
+ © R-TXZY-MD 
 ${'```WhatsApp Multi Device```'}
 `,
 }
@@ -183,7 +183,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                         hydratedTemplate: {
                             imageMessage: message.imageMessage,
                             hydratedContentText: text.trim(),
-                            hydratedFooterText:'© R-SaifY-MD',
+                            hydratedFooterText:'© R-TXZY-MD',
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Website',
